@@ -7,7 +7,36 @@ import random
 pupil = 3
 
 # The quiz data . Keys are states and values are their capitals .
-capitals = {'Alabama':'Montgomery','Alaska':'Juneau','Arizona':'Phoenix','Arkansas':'LittleRock','California':'Sacramento','Colorado':'Denver','Connecticut':'Hartford','Delaware':'Dover','Florida':'Tallahassee','Georgia':'Atlanta','Hawaii':'Honolulu','Idaho':'Boise','Illinois':'Springfield','Indiana':'Indianapolis','Iowa':'DesMoines','Kansas':'Topeka','Kentucky':'Frankfort','Louisiana':'BatonRouge','Maine':'Augusta','Maryland':'Annapolis','Massachusetts':'Boston','Michigan':'Lansing','Minnesota':'SaintPaul','Mississippi':'Jackson','Missouri':'JeffersonCity','Montana':'Helena','Nebraska':'Lincoln','Nevada':'CarsonCity','NewHampshire':'Concord','NewJersey':'Trenton','NewMexico':'SantaFe','NewYork':'Albany','NorthCarolina':'Raleigh','NorthDakota':'Bismarck','Ohio':'Columbus','Oklahoma':'OklahomaCity','Oregon':'Salem','Pennsylvania':'Harrisburg','RhodeIsland':'Providence','SouthCarolina':'Columbia','SouthDakota':'Pierre','Tennessee':'Nashville','Texas':'Austin','Utah':'SaltLakeCity','Vermont':'Montpelier','Virginia':'Richmond','Washington':'Olympia','WestVirginia':'Charleston','Wisconsin':'Madison','Wyoming':'Cheyenne'}
+capitals = {
+    "Andhra Pradesh": "Amaravati",
+    "Arunachal Pradesh": "Itanagar",
+    "Assam": "Dispur",
+    "Bihar": "Patna",
+    "Chhattisgarh": "Raipur",
+    "Goa": "Panaji",
+    "Gujarat": "Gandhinagar",
+    "Haryana": "Chandigarh",
+    "Himachal Pradesh": "Shimla",
+    "Jharkhand": "Ranchi",
+    "Karnataka": "Bengaluru",
+    "Kerala": "Thiruvananthapuram",
+    "Madhya Pradesh": "Bhopal",
+    "Maharashtra": "Mumbai",
+    "Manipur": "Imphal",
+    "Meghalaya": "Shillong",
+    "Mizoram": "Aizawl",
+    "Nagaland": "Kohima",
+    "Odisha": "Bhubaneswar",
+    "Punjab": "Chandigarh",
+    "Rajasthan": "Jaipur",
+    "Sikkim": "Gangtok",
+    "Tamil Nadu": "Chennai",
+    "Telangana": "Hyderabad",
+    "Tripura": "Agartala",
+    "Uttar Pradesh": "Lucknow",
+    "Uttarakhand": "Dehradun",
+    "West Bengal": "Kolkata"
+}
 
 # Generate quiz files .
 for quizNum in range(pupil):
